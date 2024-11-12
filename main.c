@@ -1,10 +1,12 @@
 #include<stdio.h>
 #include<mystring.h>
+#include<stdlib.h>
+
 int main()
 {
     //tester for diff
-    char str_diff_a = "hello";
-    char str_diff_b = "hell0";
+    char *str_diff_a = "hello";
+    char *str_diff_b = "hell0";
     int result_diff = diff(str_diff_a, str_diff_b);
     printf("Result of diff is %d \n", result_diff);
 
@@ -25,15 +27,30 @@ int main()
 
     //tester for find
     char str_find[] = "find";
-    int result = find(str_find, "i");
+    int result = find(str_find, "in");
     printf("result of find is %d \n", result);
 
-    //tester for prt_ro
+    //tester for prt_to
     char str_ptr_to[] = "ptr_to";
     char *p = ptr_to(str_ptr_to, "t");
-    printf("Result of ptr_to is &p \n", result);
+    printf("Result of ptr_to is %p \n", result);
 
+    //tester for is_empty
+    char str_is_empty[] = "  1 ";
+    result = is_empty(str_is_empty);
+    printf("Result of is_empty is %d\n", result);
 
+    //tester for str_zip
+    char str_zip_1[] = "hello";
+    char str_zip_2[] = "world";
+    char *result_zip = str_zip(str_zip_1, str_zip_2);
+    printf("Result of str_zip is %s\n", result_zip);
+    free(result_zip);
+
+    //tester for capitalize
+    char str_cap[] = "hello wolrd!";
+    capitalize(str_cap);
+    printf("Result of capitalize is %s\n", str_cap);
 
     
 

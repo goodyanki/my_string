@@ -10,5 +10,7 @@ char *ptr_to(char *h, char *n);
 int diff(char *s1, char *s2);
 void shorten(char *s,  int new_len);
 int len_diff(char *s1, char *s2);
-
+int is_empty(char *s);
+char *str_zip(char *s1, char *s2);
+void capitalize(char *s);
 #endif

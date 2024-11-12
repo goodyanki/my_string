@@ -2,20 +2,47 @@
 
 int find(char *h, char *n)
 {
-    char *index = h;
-    int count = 0;
-    
-    while(*index != *n)
+    char *pH = h;
+    char *pN;
+    char *current;
+    int sizeH;
+    int sizeN;
+
+    while (*h != '\0')
     {
-        if(*index == ' ')
-        {
-            return -1;
-        }
-        index++;
-        count ++;
+        sizeH++;
+        h++;
     }
 
-    return count;
+    while (*n != '\0')
+    {
+        sizeN++;
+        n++;
+    }
+
+    for (int i = 0 ; i <= sizeH - sizeN; i ++)
+    {
+        if(h[i] == n[0])
+        {
+            int j = 0;
+            for (j =1; j < sizeN; j++)
+            {
+                if(h[i+j] != n[j] )
+                {
+                    break;
+                }
+
+            }
+
+            if (j ==sizeN)
+            {
+                return i;
+            }
+        }
+    }
+    
+
+    return -1;
 
 
 

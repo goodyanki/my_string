@@ -30,7 +30,7 @@ int diff(char *s1, char *s2)
 
     if(sizeS1 == sizeS2)
     {
-        while(*startS1 != '\0' && !*startS2 != '\0')
+        while(*startS1 != '\0' && *startS2 != '\0')
         {
             
             if(*startS1 != *startS2) 

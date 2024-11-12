@@ -136,6 +136,60 @@ mylib/fast:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/build
 .PHONY : mylib/fast
 
+capitalize.o: capitalize.c.o
+
+.PHONY : capitalize.o
+
+# target to build an object file
+capitalize.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/capitalize.c.o
+.PHONY : capitalize.c.o
+
+capitalize.i: capitalize.c.i
+
+.PHONY : capitalize.i
+
+# target to preprocess a source file
+capitalize.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/capitalize.c.i
+.PHONY : capitalize.c.i
+
+capitalize.s: capitalize.c.s
+
+.PHONY : capitalize.s
+
+# target to generate assembly for a file
+capitalize.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/capitalize.c.s
+.PHONY : capitalize.c.s
+
+diff.o: diff.c.o
+
+.PHONY : diff.o
+
+# target to build an object file
+diff.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/diff.c.o
+.PHONY : diff.c.o
+
+diff.i: diff.c.i
+
+.PHONY : diff.i
+
+# target to preprocess a source file
+diff.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/diff.c.i
+.PHONY : diff.c.i
+
+diff.s: diff.c.s
+
+.PHONY : diff.s
+
+# target to generate assembly for a file
+diff.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/diff.c.s
+.PHONY : diff.c.s
+
 find.o: find.c.o
 
 .PHONY : find.o
@@ -162,6 +216,60 @@ find.s: find.c.s
 find.c.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/find.c.s
 .PHONY : find.c.s
+
+is_empty.o: is_empty.c.o
+
+.PHONY : is_empty.o
+
+# target to build an object file
+is_empty.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/is_empty.c.o
+.PHONY : is_empty.c.o
+
+is_empty.i: is_empty.c.i
+
+.PHONY : is_empty.i
+
+# target to preprocess a source file
+is_empty.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/is_empty.c.i
+.PHONY : is_empty.c.i
+
+is_empty.s: is_empty.c.s
+
+.PHONY : is_empty.s
+
+# target to generate assembly for a file
+is_empty.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/is_empty.c.s
+.PHONY : is_empty.c.s
+
+len_diff.o: len_diff.c.o
+
+.PHONY : len_diff.o
+
+# target to build an object file
+len_diff.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/len_diff.c.o
+.PHONY : len_diff.c.o
+
+len_diff.i: len_diff.c.i
+
+.PHONY : len_diff.i
+
+# target to preprocess a source file
+len_diff.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/len_diff.c.i
+.PHONY : len_diff.c.i
+
+len_diff.s: len_diff.c.s
+
+.PHONY : len_diff.s
+
+# target to generate assembly for a file
+len_diff.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/len_diff.c.s
+.PHONY : len_diff.c.s
 
 main.o: main.c.o
 
@@ -325,6 +433,60 @@ rm_space.c.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/rm_space.c.s
 .PHONY : rm_space.c.s
 
+shorten.o: shorten.c.o
+
+.PHONY : shorten.o
+
+# target to build an object file
+shorten.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/shorten.c.o
+.PHONY : shorten.c.o
+
+shorten.i: shorten.c.i
+
+.PHONY : shorten.i
+
+# target to preprocess a source file
+shorten.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/shorten.c.i
+.PHONY : shorten.c.i
+
+shorten.s: shorten.c.s
+
+.PHONY : shorten.s
+
+# target to generate assembly for a file
+shorten.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/shorten.c.s
+.PHONY : shorten.c.s
+
+str_zip.o: str_zip.c.o
+
+.PHONY : str_zip.o
+
+# target to build an object file
+str_zip.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/str_zip.c.o
+.PHONY : str_zip.c.o
+
+str_zip.i: str_zip.c.i
+
+.PHONY : str_zip.i
+
+# target to preprocess a source file
+str_zip.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/str_zip.c.i
+.PHONY : str_zip.c.i
+
+str_zip.s: str_zip.c.s
+
+.PHONY : str_zip.s
+
+# target to generate assembly for a file
+str_zip.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/str_zip.c.s
+.PHONY : str_zip.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -335,9 +497,21 @@ help:
 	@echo "... main"
 	@echo "... rebuild_cache"
 	@echo "... mylib"
+	@echo "... capitalize.o"
+	@echo "... capitalize.i"
+	@echo "... capitalize.s"
+	@echo "... diff.o"
+	@echo "... diff.i"
+	@echo "... diff.s"
 	@echo "... find.o"
 	@echo "... find.i"
 	@echo "... find.s"
+	@echo "... is_empty.o"
+	@echo "... is_empty.i"
+	@echo "... is_empty.s"
+	@echo "... len_diff.o"
+	@echo "... len_diff.i"
+	@echo "... len_diff.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -356,6 +530,12 @@ help:
 	@echo "... rm_space.o"
 	@echo "... rm_space.i"
 	@echo "... rm_space.s"
+	@echo "... shorten.o"
+	@echo "... shorten.i"
+	@echo "... shorten.s"
+	@echo "... str_zip.o"
+	@echo "... str_zip.i"
+	@echo "... str_zip.s"
 .PHONY : help
 
 

@@ -11,6 +11,9 @@ set(SOURCES
     shorten.c
     diff.c
     len_diff.c
+    is_empty.c
+    str_zip.c
+    capitalize.c
 )
 add_library(mylib STATIC ${SOURCES})
 add_executable(main main.c)
