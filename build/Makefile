@@ -217,6 +217,33 @@ nums_in_range.c.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/nums_in_range.c.s
 .PHONY : nums_in_range.c.s
 
+point_to.o: point_to.c.o
+
+.PHONY : point_to.o
+
+# target to build an object file
+point_to.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/point_to.c.o
+.PHONY : point_to.c.o
+
+point_to.i: point_to.c.i
+
+.PHONY : point_to.i
+
+# target to preprocess a source file
+point_to.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/point_to.c.i
+.PHONY : point_to.c.i
+
+point_to.s: point_to.c.s
+
+.PHONY : point_to.s
+
+# target to generate assembly for a file
+point_to.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/point_to.c.s
+.PHONY : point_to.c.s
+
 rm_left_space.o: rm_left_space.c.o
 
 .PHONY : rm_left_space.o
@@ -317,6 +344,9 @@ help:
 	@echo "... nums_in_range.o"
 	@echo "... nums_in_range.i"
 	@echo "... nums_in_range.s"
+	@echo "... point_to.o"
+	@echo "... point_to.i"
+	@echo "... point_to.s"
 	@echo "... rm_left_space.o"
 	@echo "... rm_left_space.i"
 	@echo "... rm_left_space.s"

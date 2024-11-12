@@ -19,8 +19,15 @@ int main()
 
     //tester for find
     char str_find[] = "find";
-    int result = find(str_find, 'i');
+    int result = find(str_find, "i");
     printf("result of find is %d \n", result);
+
+    //tester for prt_ro
+    char str_ptr_to[] = "ptr_to";
+    char *p = ptr_to(str_ptr_to, "t");
+    printf("Result of ptr_to is &p \n", result);
+
+
 
     
 

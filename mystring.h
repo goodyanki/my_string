@@ -6,6 +6,6 @@ void rm_left_space(char *s);
 void rm_right_space(char *s);
 void rm_space(char *s);
 int find(char *h, char *n);
-
+char *ptr_to(char *h, char *n);
 
 #endif

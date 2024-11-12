@@ -7,11 +7,17 @@ int find(char *h, char *n)
     
     while(*index != *n)
     {
+        if(*index == ' ')
+        {
+            return -1;
+        }
         index++;
         count ++;
     }
 
     return count;
+
+
 
 
 }

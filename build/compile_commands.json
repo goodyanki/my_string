@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc  -I/workspaces/my_string  -g   -std=gnu99 -o CMakeFiles/main.dir/main.c.o   -c /workspaces/my_string/main.c",
+  "file": "/workspaces/my_string/main.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/nums_in_range.c.o   -c /workspaces/my_string/nums_in_range.c",
+  "file": "/workspaces/my_string/nums_in_range.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_left_space.c.o   -c /workspaces/my_string/rm_left_space.c",
+  "file": "/workspaces/my_string/rm_left_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_right_space.c.o   -c /workspaces/my_string/rm_right_space.c",
+  "file": "/workspaces/my_string/rm_right_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_space.c.o   -c /workspaces/my_string/rm_space.c",
+  "file": "/workspaces/my_string/rm_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/find.c.o   -c /workspaces/my_string/find.c",
+  "file": "/workspaces/my_string/find.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/point_to.c.o   -c /workspaces/my_string/point_to.c",
+  "file": "/workspaces/my_string/point_to.c"
+}
+]

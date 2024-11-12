@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/workspaces/my_string/find.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/find.c.o"
   "/workspaces/my_string/nums_in_range.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/nums_in_range.c.o"
+  "/workspaces/my_string/point_to.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/point_to.c.o"
   "/workspaces/my_string/rm_left_space.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/rm_left_space.c.o"
   "/workspaces/my_string/rm_right_space.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/rm_right_space.c.o"
   "/workspaces/my_string/rm_space.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/rm_space.c.o"
