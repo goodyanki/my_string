@@ -7,5 +7,8 @@ void rm_right_space(char *s);
 void rm_space(char *s);
 int find(char *h, char *n);
 char *ptr_to(char *h, char *n);
+int diff(char *s1, char *s2);
+void shorten(char *s,  int new_len);
+int len_diff(char *s1, char *s2);
 
 #endif

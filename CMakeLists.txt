@@ -8,6 +8,9 @@ set(SOURCES
     rm_space.c
     find.c
     point_to.c
+    shorten.c
+    diff.c
+    len_diff.c
 )
 add_library(mylib STATIC ${SOURCES})
 add_executable(main main.c)

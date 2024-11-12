@@ -2,6 +2,12 @@
 #include<mystring.h>
 int main()
 {
+    //tester for diff
+    char str_diff_a = "hello";
+    char str_diff_b = "hell0";
+    int result_diff = diff(str_diff_a, str_diff_b);
+    printf("Result of diff is %d \n", result_diff);
+
     //tester for rm_left_space
     char str_rm_left_space[] = "     hello123world456";
     rm_left_space(str_rm_left_space);
