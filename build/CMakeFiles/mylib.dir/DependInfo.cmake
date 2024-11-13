@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/workspaces/my_string/capitalize.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/capitalize.c.o"
+  "/workspaces/my_string/dedup.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/dedup.c.o"
   "/workspaces/my_string/diff.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/diff.c.o"
   "/workspaces/my_string/find.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/find.c.o"
   "/workspaces/my_string/is_empty.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/is_empty.c.o"
@@ -16,6 +17,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/workspaces/my_string/rm_space.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/rm_space.c.o"
   "/workspaces/my_string/shorten.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/shorten.c.o"
   "/workspaces/my_string/str_zip.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/str_zip.c.o"
+  "/workspaces/my_string/strcmp_ign_case.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/strcmp_ign_case.c.o"
+  "/workspaces/my_string/take_last.c" "/workspaces/my_string/build/CMakeFiles/mylib.dir/take_last.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

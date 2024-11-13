@@ -13,4 +13,7 @@ int len_diff(char *s1, char *s2);
 int is_empty(char *s);
 char *str_zip(char *s1, char *s2);
 void capitalize(char *s);
+int strcmp_ign_case(char *s1, char *s2);
+void take_last(char *s, int n);
+char *dedup(char *s);
 #endif

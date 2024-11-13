@@ -19,3 +19,5 @@ void rm_left_space(char *s)
     *move = '\0';
 
 }
+
+

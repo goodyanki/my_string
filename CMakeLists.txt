@@ -14,6 +14,10 @@ set(SOURCES
     is_empty.c
     str_zip.c
     capitalize.c
+    strcmp_ign_case.c
+    take_last.c
+    dedup.c
+    
 )
 add_library(mylib STATIC ${SOURCES})
 add_executable(main main.c)

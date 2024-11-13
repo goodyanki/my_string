@@ -213,6 +213,45 @@ CMakeFiles/mylib.dir/capitalize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mylib.dir/capitalize.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/my_string/capitalize.c -o CMakeFiles/mylib.dir/capitalize.c.s
 
+CMakeFiles/mylib.dir/strcmp_ign_case.c.o: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/strcmp_ign_case.c.o: ../strcmp_ign_case.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/my_string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/mylib.dir/strcmp_ign_case.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mylib.dir/strcmp_ign_case.c.o   -c /workspaces/my_string/strcmp_ign_case.c
+
+CMakeFiles/mylib.dir/strcmp_ign_case.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mylib.dir/strcmp_ign_case.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/my_string/strcmp_ign_case.c > CMakeFiles/mylib.dir/strcmp_ign_case.c.i
+
+CMakeFiles/mylib.dir/strcmp_ign_case.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mylib.dir/strcmp_ign_case.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/my_string/strcmp_ign_case.c -o CMakeFiles/mylib.dir/strcmp_ign_case.c.s
+
+CMakeFiles/mylib.dir/take_last.c.o: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/take_last.c.o: ../take_last.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/my_string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/mylib.dir/take_last.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mylib.dir/take_last.c.o   -c /workspaces/my_string/take_last.c
+
+CMakeFiles/mylib.dir/take_last.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mylib.dir/take_last.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/my_string/take_last.c > CMakeFiles/mylib.dir/take_last.c.i
+
+CMakeFiles/mylib.dir/take_last.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mylib.dir/take_last.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/my_string/take_last.c -o CMakeFiles/mylib.dir/take_last.c.s
+
+CMakeFiles/mylib.dir/dedup.c.o: CMakeFiles/mylib.dir/flags.make
+CMakeFiles/mylib.dir/dedup.c.o: ../dedup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/my_string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/mylib.dir/dedup.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mylib.dir/dedup.c.o   -c /workspaces/my_string/dedup.c
+
+CMakeFiles/mylib.dir/dedup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mylib.dir/dedup.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspaces/my_string/dedup.c > CMakeFiles/mylib.dir/dedup.c.i
+
+CMakeFiles/mylib.dir/dedup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mylib.dir/dedup.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspaces/my_string/dedup.c -o CMakeFiles/mylib.dir/dedup.c.s
+
 # Object files for target mylib
 mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/nums_in_range.c.o" \
@@ -226,7 +265,10 @@ mylib_OBJECTS = \
 "CMakeFiles/mylib.dir/len_diff.c.o" \
 "CMakeFiles/mylib.dir/is_empty.c.o" \
 "CMakeFiles/mylib.dir/str_zip.c.o" \
-"CMakeFiles/mylib.dir/capitalize.c.o"
+"CMakeFiles/mylib.dir/capitalize.c.o" \
+"CMakeFiles/mylib.dir/strcmp_ign_case.c.o" \
+"CMakeFiles/mylib.dir/take_last.c.o" \
+"CMakeFiles/mylib.dir/dedup.c.o"
 
 # External object files for target mylib
 mylib_EXTERNAL_OBJECTS =
@@ -243,9 +285,12 @@ libmylib.a: CMakeFiles/mylib.dir/len_diff.c.o
 libmylib.a: CMakeFiles/mylib.dir/is_empty.c.o
 libmylib.a: CMakeFiles/mylib.dir/str_zip.c.o
 libmylib.a: CMakeFiles/mylib.dir/capitalize.c.o
+libmylib.a: CMakeFiles/mylib.dir/strcmp_ign_case.c.o
+libmylib.a: CMakeFiles/mylib.dir/take_last.c.o
+libmylib.a: CMakeFiles/mylib.dir/dedup.c.o
 libmylib.a: CMakeFiles/mylib.dir/build.make
 libmylib.a: CMakeFiles/mylib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/my_string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libmylib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/my_string/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C static library libmylib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mylib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mylib.dir/link.txt --verbose=$(VERBOSE)
 

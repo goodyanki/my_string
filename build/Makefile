@@ -163,6 +163,33 @@ capitalize.c.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/capitalize.c.s
 .PHONY : capitalize.c.s
 
+dedup.o: dedup.c.o
+
+.PHONY : dedup.o
+
+# target to build an object file
+dedup.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/dedup.c.o
+.PHONY : dedup.c.o
+
+dedup.i: dedup.c.i
+
+.PHONY : dedup.i
+
+# target to preprocess a source file
+dedup.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/dedup.c.i
+.PHONY : dedup.c.i
+
+dedup.s: dedup.c.s
+
+.PHONY : dedup.s
+
+# target to generate assembly for a file
+dedup.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/dedup.c.s
+.PHONY : dedup.c.s
+
 diff.o: diff.c.o
 
 .PHONY : diff.o
@@ -487,6 +514,60 @@ str_zip.c.s:
 	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/str_zip.c.s
 .PHONY : str_zip.c.s
 
+strcmp_ign_case.o: strcmp_ign_case.c.o
+
+.PHONY : strcmp_ign_case.o
+
+# target to build an object file
+strcmp_ign_case.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/strcmp_ign_case.c.o
+.PHONY : strcmp_ign_case.c.o
+
+strcmp_ign_case.i: strcmp_ign_case.c.i
+
+.PHONY : strcmp_ign_case.i
+
+# target to preprocess a source file
+strcmp_ign_case.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/strcmp_ign_case.c.i
+.PHONY : strcmp_ign_case.c.i
+
+strcmp_ign_case.s: strcmp_ign_case.c.s
+
+.PHONY : strcmp_ign_case.s
+
+# target to generate assembly for a file
+strcmp_ign_case.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/strcmp_ign_case.c.s
+.PHONY : strcmp_ign_case.c.s
+
+take_last.o: take_last.c.o
+
+.PHONY : take_last.o
+
+# target to build an object file
+take_last.c.o:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/take_last.c.o
+.PHONY : take_last.c.o
+
+take_last.i: take_last.c.i
+
+.PHONY : take_last.i
+
+# target to preprocess a source file
+take_last.c.i:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/take_last.c.i
+.PHONY : take_last.c.i
+
+take_last.s: take_last.c.s
+
+.PHONY : take_last.s
+
+# target to generate assembly for a file
+take_last.c.s:
+	$(MAKE) -f CMakeFiles/mylib.dir/build.make CMakeFiles/mylib.dir/take_last.c.s
+.PHONY : take_last.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -500,6 +581,9 @@ help:
 	@echo "... capitalize.o"
 	@echo "... capitalize.i"
 	@echo "... capitalize.s"
+	@echo "... dedup.o"
+	@echo "... dedup.i"
+	@echo "... dedup.s"
 	@echo "... diff.o"
 	@echo "... diff.i"
 	@echo "... diff.s"
@@ -536,6 +620,12 @@ help:
 	@echo "... str_zip.o"
 	@echo "... str_zip.i"
 	@echo "... str_zip.s"
+	@echo "... strcmp_ign_case.o"
+	@echo "... strcmp_ign_case.i"
+	@echo "... strcmp_ign_case.s"
+	@echo "... take_last.o"
+	@echo "... take_last.i"
+	@echo "... take_last.s"
 .PHONY : help
 
 

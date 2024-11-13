@@ -33,7 +33,7 @@ int main()
     //tester for prt_to
     char str_ptr_to[] = "ptr_to";
     char *p = ptr_to(str_ptr_to, "t");
-    printf("Result of ptr_to is %p \n", result);
+    printf("Result of ptr_to is %p \n",p);
 
     //tester for is_empty
     char str_is_empty[] = "  1 ";
@@ -51,6 +51,22 @@ int main()
     char str_cap[] = "hello wolrd!";
     capitalize(str_cap);
     printf("Result of capitalize is %s\n", str_cap);
+
+    //tester for strcmp_ign_case
+    char str_cmp_1[] = "abc";
+    char str_cmp_2[] = "cba";
+    result = strcmp_ign_case(str_cmp_1, str_cmp_2);
+    printf("Result of strcmp_ign_case is : %d\n", result);
+
+    //tester for take_last
+    char str_take_last[] = " hello";
+    take_last(str_take_last, 3);
+    printf("Result of take_last is : %s\n", str_take_last);
+
+    //tester for dedup
+    char str_dedup[] = "There's always money in the banana stand.";
+    dedup(str_dedup);
+    printf("Result of dedup is: %s\n", str_dedup);
 
     
 

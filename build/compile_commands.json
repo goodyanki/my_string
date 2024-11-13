@@ -63,5 +63,20 @@
   "directory": "/workspaces/my_string/build",
   "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/capitalize.c.o   -c /workspaces/my_string/capitalize.c",
   "file": "/workspaces/my_string/capitalize.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/strcmp_ign_case.c.o   -c /workspaces/my_string/strcmp_ign_case.c",
+  "file": "/workspaces/my_string/strcmp_ign_case.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/take_last.c.o   -c /workspaces/my_string/take_last.c",
+  "file": "/workspaces/my_string/take_last.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/dedup.c.o   -c /workspaces/my_string/dedup.c",
+  "file": "/workspaces/my_string/dedup.c"
 }
 ]
