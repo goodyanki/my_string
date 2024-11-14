@@ -1,4 +1,0 @@
-/workspaces/my_string/build/CMakeFiles/edit_cache.dir
-/workspaces/my_string/build/CMakeFiles/main.dir
-/workspaces/my_string/build/CMakeFiles/rebuild_cache.dir
-/workspaces/my_string/build/CMakeFiles/mylib.dir

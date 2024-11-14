@@ -16,4 +16,6 @@ void capitalize(char *s);
 int strcmp_ign_case(char *s1, char *s2);
 void take_last(char *s, int n);
 char *dedup(char *s);
+char *astr_zip(char*s1, char*s2);
+
 #endif

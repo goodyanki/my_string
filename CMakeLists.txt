@@ -17,6 +17,7 @@ set(SOURCES
     strcmp_ign_case.c
     take_last.c
     dedup.c
+    astr_zip.c
     
 )
 add_library(mylib STATIC ${SOURCES})

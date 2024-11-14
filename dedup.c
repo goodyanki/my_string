@@ -1,9 +1,9 @@
 #include "mystring.h"
-
+#include <stdlib.h>
 char *dedup(char *s)
 {
     char *p = s;
-    int size;
+    int size = 0;
 
 
     while(*p != '\0')
@@ -12,27 +12,26 @@ char *dedup(char *s)
         p++;
     }
 
-    char *result = (char*) malloc(size+1);
+    char *result;
+    result = (char *) malloc(size+1);
     char *start = result;
-    for(int i = 0; i < size; i++)
+    
+    int i;
+    for(i = 0; i < size; i++)
     {
-        while(*result != '\0')
+        int isFind = 0;
+
+
+        if (!isFind)
         {
-
-            if(*result = s[i])
-            {
-                result ++;
-            }
-            else
-            {
-                *result = s[i];
-                result++;
-            }
+            *result = s[i];
+            result++;
         }
-
-        result = start;
     }
 
+    result[i] = '\0';
+
     return result;
+
 
 }

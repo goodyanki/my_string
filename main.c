@@ -1,9 +1,10 @@
 #include<stdio.h>
-#include<mystring.h>
 #include<stdlib.h>
+#include "mystring.h"
 
 int main()
 {
+    
     //tester for diff
     char *str_diff_a = "hello";
     char *str_diff_b = "hell0";
@@ -67,7 +68,15 @@ int main()
     char str_dedup[] = "There's always money in the banana stand.";
     dedup(str_dedup);
     printf("Result of dedup is: %s\n", str_dedup);
+    free(str_dedup);
 
+/*
+    char str_zip_1[] = "hello";
+    char str_zip_2[] = "world";
+    char *result_zip = astr_zip(str_zip_1, str_zip_2);
+    printf("Result of str_zip is %s\n", result_zip);
+    free(result_zip);
+*/
     
 
     return 0;

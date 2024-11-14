@@ -3,10 +3,9 @@
 int find(char *h, char *n)
 {
     char *pH = h;
-    char *pN;
-    char *current;
-    int sizeH;
-    int sizeN;
+
+    int sizeH =0;
+    int sizeN = 0;
 
     while (*h != '\0')
     {

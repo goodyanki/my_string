@@ -8,7 +8,6 @@ char *str_zip(char *s1, char *s2)
     char *ps2 = s2;
     int indexs1 = 0;
     int indexs2 = 0;
-    char *presult;
 
     while (*ps1 != '\0')
     {
@@ -21,7 +20,7 @@ char *str_zip(char *s1, char *s2)
         ps2++;
     }
 
-    char *result = (char *)malloc(sizeS1+ sizeS2 + 1 );
+    char *result = (char *)malloc(sizeS1 + sizeS2 +sizeS1 + sizeS2+ 1 );
 
     int k;
     for ( k = 0; k < sizeS1 + sizeS2; k++)
