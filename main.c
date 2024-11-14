@@ -64,20 +64,54 @@ int main()
     take_last(str_take_last, 3);
     printf("Result of take_last is : %s\n", str_take_last);
 
-    //tester for dedup
+    /*tester for dedup fail 
     char str_dedup[] = "There's always money in the banana stand.";
     dedup(str_dedup);
     printf("Result of dedup is: %s\n", str_dedup);
-    free(str_dedup);
+    free(str_dedup);*/ 
 
-/*
-    char str_zip_1[] = "hello";
-    char str_zip_2[] = "world";
-    char *result_zip = astr_zip(str_zip_1, str_zip_2);
-    printf("Result of str_zip is %s\n", result_zip);
-    free(result_zip);
-*/
+
+    //tester for pad
+    char str_pad[] = "hello";
+    int d = 2;  
+    char *cresult = pad(str_pad, d);
+    printf("Result for pad is %s'\n ", cresult);
+
+
+    //tester for ends_with_ignore_case
+    char str_ends_with_ignore_case[] = " HelloWorld";
+    char *suff = "world";
+    printf("Result of ends_with_ignore_case is %d\n", ends_with_ignore_case(str_ends_with_ignore_case, suff));
     
+    //tester for repeat
+    char str_repeat[] = "HelloWorld";
+    char *result_repeat = repeat(str_repeat, 3, '_');
+    printf("Result of repeat is %s \n", result);
+
+
+    //tester for replace
+    char str_replace[] = "Hello World";
+    char *result_replace = replace(str_replace, "l", "1");
+    printf("Result of replace is %s\n", result_replace);
+
+    //tester for str_connect
+    char *str_str_connect[] = {"Hello", "World", "!"};
+    char *result_str_connect = str_connect(str_str_connect, 2, '+');
+    printf("Result of str_connect is %s\n", result_str_connect);
+
+    //tester for rm_empties
+    char *str_empties = {"Hello", "", "world"};
+    rm_empties(str_empties);
+    printf("Result of rm_empties is :\n");
+    
+
+    //tester for str_chop_all
+    char str_str_chop_all[] = "Hewllo World";
+    char **array = str_chop_all(str_str_chop_all, ' ');
+
+
+
+
 
     return 0;
 }

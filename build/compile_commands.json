@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc  -I/workspaces/my_string  -g   -std=gnu99 -o CMakeFiles/main.dir/main.c.o   -c /workspaces/my_string/main.c",
+  "file": "/workspaces/my_string/main.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/nums_in_range.c.o   -c /workspaces/my_string/nums_in_range.c",
+  "file": "/workspaces/my_string/nums_in_range.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_left_space.c.o   -c /workspaces/my_string/rm_left_space.c",
+  "file": "/workspaces/my_string/rm_left_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_right_space.c.o   -c /workspaces/my_string/rm_right_space.c",
+  "file": "/workspaces/my_string/rm_right_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/rm_space.c.o   -c /workspaces/my_string/rm_space.c",
+  "file": "/workspaces/my_string/rm_space.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/find.c.o   -c /workspaces/my_string/find.c",
+  "file": "/workspaces/my_string/find.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/point_to.c.o   -c /workspaces/my_string/point_to.c",
+  "file": "/workspaces/my_string/point_to.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/shorten.c.o   -c /workspaces/my_string/shorten.c",
+  "file": "/workspaces/my_string/shorten.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/diff.c.o   -c /workspaces/my_string/diff.c",
+  "file": "/workspaces/my_string/diff.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/len_diff.c.o   -c /workspaces/my_string/len_diff.c",
+  "file": "/workspaces/my_string/len_diff.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/is_empty.c.o   -c /workspaces/my_string/is_empty.c",
+  "file": "/workspaces/my_string/is_empty.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/str_zip.c.o   -c /workspaces/my_string/str_zip.c",
+  "file": "/workspaces/my_string/str_zip.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/capitalize.c.o   -c /workspaces/my_string/capitalize.c",
+  "file": "/workspaces/my_string/capitalize.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/strcmp_ign_case.c.o   -c /workspaces/my_string/strcmp_ign_case.c",
+  "file": "/workspaces/my_string/strcmp_ign_case.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/take_last.c.o   -c /workspaces/my_string/take_last.c",
+  "file": "/workspaces/my_string/take_last.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/dedup.c.o   -c /workspaces/my_string/dedup.c",
+  "file": "/workspaces/my_string/dedup.c"
+},
+{
+  "directory": "/workspaces/my_string/build",
+  "command": "/usr/bin/gcc   -g   -std=gnu99 -o CMakeFiles/mylib.dir/astr_zip.c.o   -c /workspaces/my_string/astr_zip.c",
+  "file": "/workspaces/my_string/astr_zip.c"
+}
+]
